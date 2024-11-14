@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Adventure Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+    <header class="bg-gray-800 text-white py-4 fixed w-full z-10">
+        <nav class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Epic Adventure</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#about" class="hover:text-gray-300">About</a></li>
+                <li><a href="#plot" class="hover:text-gray-300">Plot</a></li>
+                <li><a href="#gameplay" class="hover:text-gray-300">Gameplay</a></li>
+                <li><a href="#gallery" class="hover:text-gray-300">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="pt-16">
+            <div class="relative h-screen">
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="w-full">
+                        <div class="flex overflow-hidden">
+                            <img src="./img/gallery-03.jpg" alt="Game Screenshot 1" class="w-full h-screen object-cover">
+                            <img src="./img/gallery-04.jpeg" alt="Game Screenshot 2" class="w-full h-screen object-cover">
+                            <img src="./img/gallery-08.jpg" alt="Game Screenshot 3" class="w-full h-screen object-cover">
+                        </div>
+                    </div>
+                </div>
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                    <div class="text-center">
+                        <h2 class="text-5xl font-bold text-white mb-4">Epic Adventure</h2>
+                        <p class="text-xl text-gray-200 mb-8">Embark on a journey like no other</p>
+                        <a href="#about" class="bg-red-600 text-white py-2 px-6 rounded-full text-lg hover:bg-red-700 transition duration-300">Play Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center">About the Game</h2>
+                <div class="flex flex-wrap items-center">
+                    <div class="w-full md:w-1/2 mb-8 md:mb-0">
+                        <img src="./img/combate-distancia.png" alt="Game Logo" class="rounded-lg shadow-lg">
+                    </div>
+                    <div class="w-full md:w-1/2 md:pl-8">
+                        <p class="text-gray-700 mb-4">Epic Adventure is an immersive open-world game that takes you on a thrilling journey through a fantastical realm. Discover ancient mysteries, battle fearsome creatures, and shape the fate of a world on the brink of chaos.</p>
+                        <p class="text-gray-700">With stunning visuals, a compelling storyline, and innovative gameplay mechanics, Epic Adventure offers an unforgettable gaming experience for players of all levels.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="plot" class="py-16 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center">Plot</h2>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <p class="text-gray-700 mb-4">In a world torn apart by an ancient conflict, you play as the last surviving member of an order sworn to protect the balance between light and darkness. As dark forces threaten to consume everything, you must embark on a perilous quest to unlock your hidden powers and unite the fractured lands.</p>
+                    <p class="text-gray-700">Along your journey, you'll encounter a diverse cast of characters, each with their own motivations and secrets. Your choices will shape the story and determine the fate of the world. Will you become the savior everyone hopes for, or will you succumb to the darkness that threatens to consume all?</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gameplay" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center">Gameplay</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-100 rounded-lg p-6">
+                        <h3 class="text-xl font-bold mb-4">Combat</h3>
+                        <p class="text-gray-700">Experience fluid, action-packed combat with a variety of weapons and magical abilities. Customize your fighting style and unleash devastating combos against your foes.</p>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg p-6">
+                        <h3 class="text-xl font-bold mb-4">Exploration</h3>
+                        <p class="text-gray-700">Traverse a vast, interconnected world filled with hidden treasures, challenging dungeons, and breathtaking vistas. Uncover secrets and lore scattered throughout the land.</p>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg p-6">
+                        <h3 class="text-xl font-bold mb-4">Character Progression</h3>
+                        <p class="text-gray-700">Level up your character, unlock new abilities, and craft powerful gear to become the hero the world needs. Your choices in skills and equipment will greatly impact your playstyle.</p>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg p-6">
+                        <h3 class="text-xl font-bold mb-4">Decision Making</h3>
+                        <p class="text-gray-700">Make crucial decisions that affect the story and the world around you. Form alliances, betray enemies, and shape the outcome of the epic tale through your actions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="py-16 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center">Gallery</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                    <img src="./img/combate-distancia.png" alt="Gallery Image 1" class="w-full h-64 object-cover rounded-lg shadow-md">
+                    <img src="./img/combate-distancia.png" alt="Gallery Image 2" class="w-full h-64 object-cover rounded-lg shadow-md">
+                    <img src="./img/combate-distancia.png" alt="Gallery Image 3" class="w-full h-64 object-cover rounded-lg shadow-md">
+                    <img src="./img/combate-distancia.png" alt="Gallery Image 4" class="w-full h-64 object-cover rounded-lg shadow-md">
+                    <img src="./img/combate-distancia.png" alt="Gallery Image 5" class="w-full h-64 object-cover rounded-lg shadow-md">
+                    <img src="./img/combate-distancia.png" alt="Gallery Image 6" class="w-full h-64 object-cover rounded-lg shadow-md">
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8 text-center">Key Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <svg class="w-12 h-12 mx-auto mb-4 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h3 class="text-xl font-bold mb-2">Vast Open World</h3>
+                        <p class="text-gray-700">Explore a massive, seamlessly connected world filled with diverse environments and hidden secrets.</p>
+                    </div>
+                    <div class="text-center">
+                        <svg class="w-12 h-12 mx-auto mb-4 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <h3 class="text-xl font-bold mb-2">Dynamic Combat</h3>
+                        <p class="text-gray-700">Engage in thrilling battles with a deep, responsive combat system that rewards skill and strategy.</p>
+                    </div>
+                    <div class="text-center">
+                        <svg class="w-12 h-12 mx-auto mb-4 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+                        <h3 class="text-xl font-bold mb-2">Deep Customization</h3>
+                        <p class="text-gray-700">Tailor your character's abilities, appearance, and gear to suit your unique playstyle.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2023 Epic Adventure. All rights reserved.</p>
+            <div class="mt-4">
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Terms of Service</a>
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
